@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FundSomeFun</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Help and support txt-->
+    <string name="help_num">Give Us a Call: (678)7407150</string>
+    <string name="help_email">or Email Us! help@fundsomefun.com</string>
+    <string name="support_txt">
+        We do our best to answer all email requests quickly - often within just a few hours. While our support staff are available 24/7, if we are receiving a high volume of support requests it may take up to a couple of business days to process your request.
+    </string>
+
+    <!--However txt-->
+    <string name="however_txt">
+    However, to start a campaign, you must first log in with a valid account. Please either log in or create an acccount with us!
+    </string>
+
+    <!--about txt strings-->
+    <string name="abtTxt" color="#000000">
+        Opelika, AL -
+    </string>
+
+    <string name="abtTxt1" color="#000000">
+    The idea for FundSomeFun was inspired by a fishing pole and a GoPro camera, an idea that had been sitting in the back of the mind of successful serial entrepreneur and Round House founder Kyle Sandler.
+    </string>
+
+    <string name="abtTxt2" color="#000000">
+    "''I was very sick as a kid and spent a lot of time at the Johns Hopkins Childrens Center in Baltimore Maryland. I know first hand what a burden childhood sickness can be on friends and family members, and really I know how boring it can be to be confined to a hospital room or a bedroom for hours and days on end and that's what Fund Some Fun is all about. It's about helping sick kids get fun stuff.''"
+    </string>
+
+    <string name="abtTxt3" color="#000000">
+    Most kids that are sick want fun things to do to pass the time and to have something to look forward to. They don\'t want to ask their parents, friends or grandparents for money. After all those people surrounding them have been spending lots of money already, with treatment, gas, and even living expenses. And for families in our direct region, having a sick child means commuting back and forth from Birmingham or Atlanta. Many communities across the country are the same way.
+    </string>
+
+    <string name="abtTxt4" color="#000000">
+    Why not Make a Wish or Grant a Wish?
+    </string>
+
+    <string name="abtTxt5" color="#000000">
+    We view those organizations as some of the most amazing organizations on the planet. For co-founder Kyle Sandler his wish was to meet a radio DJ and he did. The opportunity was an inspiration for his life. But those organizations are for big things like trips to Disney World and to request a field visit with Cam Newton.
+    </string>
+
+    <string name="abtTxt6" color="#000000">
+    At Fund some Fun we are about the little things, the things that may only cost a few hundred to a couple thousand dollars and are way too much to ask family and friends for directly. Because you know if you ask mom and dad they\'ll get it for you even if it\'s the last few dollars they have. Those things can include anything from an Xbox One to a Nintendo DS, a DSLR camera, easels, art sets, a GoPro or even a fishing rod. We are here to alleviate that burden. Fund Some Fun is for anything that\'s fun, anything that can bring a smile to a child\’s face.
+    </string>
+
+    <string name="abtTxt7" color="#000000">
+    Using our platform a sick kid, their parents, a family member, or close friend can create a crowdfunding campaign that can be shared across social media channels, websites and email. The campaigns are designed to last 3, 5 or 7 days and raise up to $1,500 and they can be for anything that will bring a smile to a sick child’s face.
+    </string>
+
+    <string name="abtTxt8" color="#000000">How It All Started:
+    </string>
+
+    <string name="abtTxt9" color="#000000">
+    We hadn\'t even met the young Opelika boy that would become the recipient of the fishing pole and Go-Pro camera. You see he\'s the son of family friend of one of our Round House co-founders. We had met his dad a couple times and the local newspaper even did a story on him.
+    </string>
+
+    <string name="abtTxt10" color="#000000">
+    As the "technology guy" my Round House co-founder had asked us if we could help get this young man a drone that he could fly outside. We tried to do that but before we could make that happen the young man and his father had already gotten the drone. So I reached out to his mom via Facebook and found out what he really wanted. He wanted a salt-water fishing rod, because after their latest radiation treatments they were going to the beach.
+    </string>
+
+    <string name="abtTxt11" color="#000000">
+    We bought the fishing rod and a Go-Pro camera. We learned enough about the kid that we knew the fishing pole and GoPro camera might do him some good, and with that we decided we didn’t want this to be a one time thing. We wanted to continually impact these kid’s lives. So we decided to launch Fund Some Fun!
+    </string>
+
+    <string name="abtTxt12" color="#000000">
+    Since we have started it has been a privilege and our purpose to change as many lives a possible. Every little bit at a time!
+    </string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+</resources>

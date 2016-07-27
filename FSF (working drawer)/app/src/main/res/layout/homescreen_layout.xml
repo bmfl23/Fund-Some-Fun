@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5F5"
+        android:gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:id="@+id/welcomeImageViewLayout"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/slide_1">
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/logo"
+
+                />
+
+            <TextView
+                android:adjustViewBounds="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:textColor="#ffffff"
+                android:fontFamily="impact"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="WELCOME TO FUND SOME FUN!"
+                android:id="@+id/welcome"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"/>
+
+            <TextView
+                android:adjustViewBounds="true"
+                android:layout_below="@+id/welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffffff"
+                android:fontFamily="impact"
+                android:textSize="7.74sp"
+                android:textStyle="bold"
+                android:text="CROWDFUND A GIFT FOR CHILDREN FACING THREATENING MEDICAL CONDITIONS IN YOUR COMMUNITY."
+                android:gravity="center_horizontal"/>
+        </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_below="@+id/welcomeImageViewLayout"
+                android:id="@+id/relButtons"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                >
+                <!--
+                <Button
+                    android:adjustViewBounds="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:id="@+id/browseButton"
+                    android:background="@drawable/button_box"
+                    android:text="Browse Campaigns"
+                    android:textSize="16dp"
+                    android:fontFamily="impact"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFFFF"
+                    android:layout_marginTop="10dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    />
+
+                <Button
+                    android:adjustViewBounds="true"
+                    android:layout_toRightOf="@id/browseButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:id="@+id/startCampaignButton"
+                    android:background="@drawable/border_button_box"
+                    android:text="Start Your Own!"
+                    android:textSize="16dp"
+                    android:fontFamily="impact"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="10dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    />
+                    -->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relRecentCmptxt"
+                android:layout_below="@+id/relButtons"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="30dp">
+                <TextView
+                    android:adjustViewBounds="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="RECENT "
+                    android:id="@+id/recent"
+                    android:fontFamily="impact"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:adjustViewBounds="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="CAMPAIGNS"
+                    android:id="@+id/campaign"
+                    android:fontFamily="impact"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/recent"
+                    android:textColor="#FF0000"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/relRecentCmptxt"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/relCheckoutTxt"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6D6D6D"
+                        android:fontFamily="corbel"
+                        android:textSize="12dp"
+                        android:text="Checkout some of the latest campaigns hosted on "
+                        android:id="@+id/checkout"
+                        android:adjustViewBounds="true"
+                        android:gravity="center"
+                        />
+                    <TextView
+                        android:layout_below="@id/checkout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6D6D6D"
+                        android:fontFamily="corbel"
+                        android:textStyle="bold"
+                        android:textSize="12dp"
+                        android:text="Fund Some Fun!"
+                        android:id="@+id/fsftxt"
+                        android:adjustViewBounds="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/relCheckoutTxt"
+            android:background="#6D6D6D"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            >
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F5F5F5"
+                android:gravity="center_horizontal"
+                android:scrollbars="horizontal"
+                android:scrollbarDefaultDelayBeforeFade="0"
+                android:scrollbarFadeDuration="0"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:overScrollMode="always"
+                >
+
+                <!--
+                <ListView
+                    android:id="@+id/listViewFromDB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#000000"
+                     />
+                -->
+                <!--
+                <org.androidconnect.listview.horizontal.adapter.HorizontalListView
+                    android:id="@+id/listViewFromDB"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ddd"
+                    android:layout_gravity="center"
+                    />
+                -->
+
+                <RelativeLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="25dp"
+                    android:paddingBottom="25dp"
+                    android:paddingLeft="45dp"
+                    android:paddingRight="45dp"
+                    >
+                    <include
+                        android:id="@+id/recentBillboard1"
+                        layout="@layout/campaign_billboard_layout"
+                        android:layout_width="275dp"
+                        android:layout_height="215dp"
+                        />
+                    <include
+                        android:id="@+id/recentBillboard2"
+                        layout="@layout/campaign_billboard_layout"
+                        android:layout_width="275dp"
+                        android:layout_height="215dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_toRightOf="@id/recentBillboard1"
+                        />
+                    <include
+                        android:id="@+id/recentBillboard3"
+                        layout="@layout/campaign_billboard_layout"
+                        android:layout_width="275dp"
+                        android:layout_height="215dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_toRightOf="@id/recentBillboard2"
+                        />
+                    <include
+                        android:id="@+id/recentBillboard4"
+                        layout="@layout/campaign_billboard_layout"
+                        android:layout_width="275dp"
+                        android:layout_height="215dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_toRightOf="@id/recentBillboard3"
+                        />
+                    <include
+                        android:id="@+id/recentBillboard5"
+                        layout="@layout/campaign_billboard_layout"
+                        android:layout_width="275dp"
+                        android:layout_height="215dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_toRightOf="@id/recentBillboard4"
+                        />
+                    <include
+                        android:id="@+id/recentBillboard6"
+                        layout="@layout/campaign_billboard_layout"
+                        android:layout_width="275dp"
+                        android:layout_height="215dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_toRightOf="@id/recentBillboard5"
+                        />
+                    <include
+                        android:id="@+id/recentBillboard7"
+                        layout="@layout/campaign_billboard_layout"
+                        android:layout_width="275dp"
+                        android:layout_height="215dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_toRightOf="@id/recentBillboard6"
+                        />
+
+
+                </RelativeLayout>
+
+            </HorizontalScrollView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
